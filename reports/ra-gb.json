@@ -1,0 +1,45 @@
+{
+  "snapshot_id": 1,
+  "console_id": 4,
+  "fetched_at": "2026-10-04T11:41:31.993911+00:00",
+  "ra_games_with_achievements": 505,
+  "status_totals": {
+    "local": 394,
+    "dat_only": 2,
+    "nointro_db_only": 0,
+    "unmatched": 109
+  },
+  "by_category": {
+    "Official": {
+      "local": 345,
+      "unmatched": 15
+    },
+    "Hack": {
+      "unmatched": 33,
+      "local": 1
+    },
+    "Homebrew": {
+      "local": 43,
+      "unmatched": 53,
+      "dat_only": 2
+    },
+    "Prototype": {
+      "local": 3
+    },
+    "Unlicensed": {
+      "local": 1
+    },
+    "Homebrew/Prototype": {
+      "unmatched": 2
+    },
+    "Homebrew/Demo": {
+      "local": 1,
+      "unmatched": 5
+    },
+    "Demo": {
+      "unmatched": 1
+    }
+  },
+  "local_roms_with_achievements": 506,
+  "rule": "RA hash = MD5 of the complete file; exact hash equality only"
+}

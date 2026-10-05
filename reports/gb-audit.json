@@ -1,0 +1,13 @@
+{
+ "integrity_check": [
+  "ok"
+ ],
+ "foreign_key_errors": [],
+ "objects_checked": 2323,
+ "archive_plans_checked": 2491,
+ "compression_groups_checked": 3,
+ "historical_zip_objects": 2491,
+ "errors": [],
+ "ok": true,
+ "seconds": 66
+}

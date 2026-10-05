@@ -1,0 +1,408 @@
+{
+  "platform": "gb",
+  "started_at": "2026-10-04T11:29:13.559142+00:00",
+  "engine_version": "4.0.0",
+  "dat_sets": [
+    {
+      "id": 1,
+      "name": "Nintendo - Game Boy (Parent-Clone)",
+      "version": "20260602-070215"
+    },
+    {
+      "id": 2,
+      "name": "Nintendo - Game Boy (Parent-Clone)",
+      "version": "20260707-013717"
+    },
+    {
+      "id": 3,
+      "name": "Nintendo - Game Boy (Parent-Clone)",
+      "version": "20260814-115131"
+    },
+    {
+      "id": 4,
+      "name": "Nintendo - Game Boy (Parent-Clone)",
+      "version": "20261001-130150"
+    }
+  ],
+  "completed_stages": [
+    "dat_import",
+    "rom_import",
+    "scan_diff_catalog",
+    "nointro",
+    "packages",
+    "retroachievements",
+    "game_names"
+  ],
+  "rom_import": {
+    "directories": [
+      "/mnt/MyShare/No-Intro/Nintendo - Game Boy",
+      "/mnt/MyShare/No-Intro/Nintendo - Game Boy (Aftermarket)",
+      "/mnt/MyShare/No-Intro/Nintendo - Game Boy (Private)"
+    ],
+    "families": 1455,
+    "family_assignment": {
+      "family_from_dat_or_db": 2600,
+      "family_from_title": 71
+    },
+    "errors": [],
+    "groups": 18,
+    "raw_group_bytes": 577545216,
+    "stored_group_bytes": 138530582,
+    "zips": 2671,
+    "sidecar_files": 2,
+    "seconds": 223
+  },
+  "scan": {
+    "1": {
+      "match": 2218,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 58
+    },
+    "2": {
+      "match": 2218,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 66
+    },
+    "3": {
+      "match": 2222,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 70
+    },
+    "4": {
+      "match": 2224,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 75
+    }
+  },
+  "dat_diff": {
+    "1->4": {
+      "unchanged": 2265,
+      "renamed": 10,
+      "added": 24,
+      "removed": 1
+    },
+    "2->4": {
+      "unchanged": 2276,
+      "added": 16,
+      "renamed": 7,
+      "removed": 1
+    },
+    "3->4": {
+      "unchanged": 2285,
+      "added": 8,
+      "renamed": 6,
+      "removed": 1
+    }
+  },
+  "catalog": {
+    "games": 1419,
+    "releases": 2299,
+    "old_dat_games_linked": 6849,
+    "rom_release_links": 2224
+  },
+  "nointro": {
+    "snapshot_id": 1,
+    "version": "20261001-130150",
+    "archives": 2335,
+    "files": 2450,
+    "files_with_local_payload": 2248,
+    "sources": 5565,
+    "dumplog_rows": 2333,
+    "dat_links": 9148,
+    "archive_release_links": 2295,
+    "hardware_assertions": 2810,
+    "dumplog_status": {
+      "trusted_unverified": 1118,
+      "verified": 719,
+      "unverified": 490,
+      "bad": 2,
+      "no_dump": 4
+    },
+    "anomalies": {
+      "file_without_sha256": 93
+    }
+  },
+  "packages": {
+    "packages_by_dat_set": {
+      "1": 2218,
+      "2": 2218,
+      "3": 2222,
+      "4": 2224
+    },
+    "errors": []
+  },
+  "retroachievements": {
+    "snapshot_id": 1,
+    "console_id": 4,
+    "fetched_at": "2026-10-04T11:41:31.993911+00:00",
+    "games": 1392,
+    "hashes": 2171,
+    "games_with_achievements": 505,
+    "hashes_of_games_with_achievements": 763,
+    "local_roms_matched": 506,
+    "ra_games_with_local_rom": 394,
+    "dat_entries_matched": 2035,
+    "ra_games_in_any_dat": 391,
+    "hashes_with_achievements_unexplained": 249,
+    "by_category_local": {
+      "Hack": 1,
+      "Homebrew": 43,
+      "Homebrew/Demo": 1,
+      "Official": 345,
+      "Prototype": 3,
+      "Unlicensed": 1
+    }
+  },
+  "game_names": {
+    "source_name": "Nintendo - Game Boy.csv",
+    "source_sha256": "64f529a376d8570d71ec73914f920be2b374ce1d15c15df088fb055b68481c45",
+    "normalization_version": "parentheses-whitespace-casefold-v1",
+    "import_id": 1,
+    "matching_version": "game-qualified-title-v1",
+    "rows": 1974,
+    "rows_with_chinese": 1816,
+    "unique_chinese_names": 1237,
+    "normalized_titles": 1458,
+    "matched_rows": 1956,
+    "matched_rows_with_chinese": 1799,
+    "matched_releases": 1960,
+    "releases_with_chinese": 1803,
+    "matched_games": 1169,
+    "matched_roms": 1955,
+    "matched_links": 1962,
+    "ambiguous_links": 0,
+    "ambiguous_rows": 0,
+    "unmatched_rows": 18,
+    "unresolved_rows": [
+      {
+        "row_number": 2,
+        "name_en": "[BIOS] Maxstation Boot ROM (China) (En) (Unl)",
+        "name_cn": null,
+        "status": "unmatched"
+      },
+      {
+        "row_number": 515,
+        "name_en": "Fushigi na Blobby - Princess Blob o Sukue! (Japan)",
+        "name_cn": "男孩与软泥怪",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1960,
+        "name_en": "Gargoyle's Quest II - The Demon Darkness (Japan) [T-En by Bailli v1.0] [n]",
+        "name_cn": "魔界村外传 - 红魔冒险",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1961,
+        "name_en": "Frog for Whom the Bell Tolls, The (Japan) [T-En by Ryanbgstl v1.0] [Add by Hamikon v1.0] [n]",
+        "name_cn": "钟声为蛙响",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1962,
+        "name_en": "For the Frog the Bell Tolls",
+        "name_cn": "钟声为蛙响",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1963,
+        "name_en": "Fire Dragon (China) [CHT]",
+        "name_cn": "瓜瓜火龙",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1964,
+        "name_en": "Jurassic Park 3 (China) [CHT]",
+        "name_cn": "侏罗纪3",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1965,
+        "name_en": "Magic Ball (China) [CHT]",
+        "name_cn": "魔法球",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1966,
+        "name_en": "Phantasy Star (China) [CHT]",
+        "name_cn": "梦幻之星 - 拯救地球",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1967,
+        "name_en": "Phantasy Star (China) [CHS]",
+        "name_cn": "梦幻之星 - 拯救地球",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1968,
+        "name_en": "Puzzle Path (China) [CHT]",
+        "name_cn": "迷途之旅",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1969,
+        "name_en": "Rainbow Prince (China) [CHT]",
+        "name_cn": "彩虹战士",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1970,
+        "name_en": "Battle City (Japan) [CHS]",
+        "name_cn": "坦克大战",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1971,
+        "name_en": "Story of Lasama (China) [CHT]",
+        "name_cn": "拉萨玛传奇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1972,
+        "name_en": "Fire Dragon (China) [CHT]",
+        "name_cn": "瓜瓜火龙",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1973,
+        "name_en": "Top Secret (China) [CHT]",
+        "name_cn": "最高机密",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1974,
+        "name_en": "Pokemon - Gold Version (USA, Europe) [CHS]",
+        "name_cn": "精灵宝可梦 - 金",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1975,
+        "name_en": "Pokemon - Silver Version (USA, Europe) [CHS]",
+        "name_cn": "精灵宝可梦 - 银",
+        "status": "unmatched"
+      }
+    ],
+    "multiple_translation_keys": [],
+    "matched_rows_by_method": {
+      "exact_title": 1950,
+      "qualified_title": 6
+    }
+  },
+  "audit": {
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_errors": [],
+    "objects_checked": 2323,
+    "archive_plans_checked": 2491,
+    "compression_groups_checked": 18,
+    "historical_zip_objects": 2491,
+    "ok": true,
+    "errors": []
+  },
+  "stats": {
+    "counts": {
+      "files": 7590,
+      "objects": 4814,
+      "chunks": 8923,
+      "roms": 2315,
+      "dat_sets": 4,
+      "dat_roms": 9151,
+      "transformations": 0,
+      "packages": 8882,
+      "media": 0
+    },
+    "storage": {
+      "logical_content_bytes": 718441500,
+      "historical_zip_bytes_not_stored": 296859073,
+      "unique_raw_chunk_bytes": 585206812,
+      "stored_chunk_bytes": 139730696,
+      "header_body_recipes": 0,
+      "zip_plans": 2491,
+      "file_occurrences": 7590,
+      "catalog_objects": 4814
+    },
+    "dat_coverage": [
+      {
+        "dat_set_id": 1,
+        "status": "matched",
+        "count": 2218
+      },
+      {
+        "dat_set_id": 1,
+        "status": "unmatched",
+        "count": 58
+      },
+      {
+        "dat_set_id": 2,
+        "status": "matched",
+        "count": 2218
+      },
+      {
+        "dat_set_id": 2,
+        "status": "unmatched",
+        "count": 66
+      },
+      {
+        "dat_set_id": 3,
+        "status": "matched",
+        "count": 2222
+      },
+      {
+        "dat_set_id": 3,
+        "status": "unmatched",
+        "count": 70
+      },
+      {
+        "dat_set_id": 4,
+        "status": "matched",
+        "count": 2224
+      },
+      {
+        "dat_set_id": 4,
+        "status": "unmatched",
+        "count": 75
+      }
+    ],
+    "codecs": [
+      {
+        "codec": "group",
+        "blocks": 8912,
+        "raw_bytes": 577545216,
+        "stored_bytes": 0
+      },
+      {
+        "codec": "lzma",
+        "blocks": 9,
+        "raw_bytes": 7660484,
+        "stored_bytes": 1199592
+      },
+      {
+        "codec": "zlib",
+        "blocks": 2,
+        "raw_bytes": 1112,
+        "stored_bytes": 522
+      }
+    ],
+    "storage_schema_version": 4,
+    "compression_groups": {
+      "groups": 18,
+      "raw_bytes": 577545216,
+      "stored_bytes": 138530582
+    },
+    "platform": "gb",
+    "solid_groups": {
+      "groups": 18,
+      "raw_bytes": 577545216,
+      "stored_bytes": 138530582
+    }
+  },
+  "finished_at": "2026-10-04T11:44:26.451987+00:00",
+  "seconds": 916,
+  "database_bytes": 176898048
+}
