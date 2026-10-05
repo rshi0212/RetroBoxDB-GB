@@ -7,7 +7,7 @@ Single-file SQLite preservation database for Nintendo Game Boy. The public Catal
 | Item | Value |
 | --- | --- |
 | Original size | 3,391 source ZIPs, 401.1 MiB (No-Intro 2,671, RetroAchievements sets 720); 3,392 ROM files, 1.05 GiB uncompressed |
-| Stored size | populated database 177.7 MiB; public Catalog 35.5 MiB (no ROM data) |
+| Stored size | populated database 177.8 MiB; public Catalog 35.6 MiB (no ROM data) |
 | Ratio | 44.3% of the source ZIPs, 16.5% of the uncompressed ROM files |
 | Technology | storage v4: SHA256-deduplicated 64 KiB blocks packed in No-Intro family order into solid LZMA2 groups of up to 256 MiB (256 MiB dictionary); per-block SHA256 and per-object CRC32/MD5/SHA1/SHA256 verification; source ZIPs reproduced byte-for-byte from TorrentZip plans |
 | Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. whole newest-DAT set with `export_set.py` (2,232 files, each checked against the DAT hashes): 41.0 MiB/s, 6 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 1.594 s, TorrentZip 1.812 s on average |
@@ -17,7 +17,7 @@ Single-file SQLite preservation database for Nintendo Game Boy. The public Catal
 | File / document | Content |
 | --- | --- |
 | [RetroBoxDB.GB.Catalog.sqlite](https://github.com/rshi0212/RetroBoxDB-GB/releases/latest/download/RetroBoxDB.GB.Catalog.sqlite) | Public Catalog (Release asset with `SHA256SUMS`) |
-| [Storage v4 guide](RetroBoxDB.Storage-v4.en.md) / [中文](RetroBoxDB.Storage-v4.zh-CN.md) | Storage evaluation, contents, RA, names and maintenance for all seven platforms |
+| [Storage v4 guide](RetroBoxDB.Storage-v4.en.md) / [中文](RetroBoxDB.Storage-v4.zh-CN.md) | Storage evaluation, contents, RA, names and maintenance for all eight platforms |
 | [Technical design](RetroBoxDB.Storage-v4.Technical-Design.en.md) | Storage format, platform adapters, incremental updates, verification |
 | [RA list](reports/ra-gb-games.csv) / [summary](reports/ra-gb.json), [build report](reports/gb-build-report.json), [audit resolution](reports/audit-resolution-20261004.md) | Detailed data |
 
@@ -38,7 +38,7 @@ Change against 32 MiB groups on real data (all 18 groups, 551 MiB): 64 MiB −1.
 | Local ROMs in no DAT | 306 |
 | ROM files of the RetroAchievements set | in a No-Intro DAT 495, RA only 222, hash not in the latest RA snapshot 3 ([list](reports/ra-gb-collection-unknown.csv)); RA games still without a local ROM: [gap list](reports/ra-gb-missing.csv) |
 | No-Intro DB Export + Dump Log 20261001-130150 | 2,335 archives, 2,450 file identities, 2,810 documented hardware assertions; Dump Log Verified 719 |
-| RetroAchievements (console 4) | 505 games with achievements: 492 with a local ROM (725 ROMs), 0 DAT only, 0 DB file only, 13 without a No-Intro counterpart |
+| RetroAchievements (console 4) | 505 games with achievements: 492 with a local ROM (725 ROMs), 0 with the ROM in a sibling database, 0 DAT only, 0 DB file only, 13 without a No-Intro counterpart |
 | Chinese names | 1,816 of 1,974 rows translated (1,237 unique); 1,835 local ROMs have a Chinese name |
 | Populated-database audit | 2,546 objects, 5 groups, 2,776 archive plans, all passed |
 
