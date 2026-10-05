@@ -1,10 +1,10 @@
 {
-  "tag": "gb-catalog-20261005-2",
+  "tag": "gb-catalog-20261005-3",
   "title": "Game Boy Catalog: RetroAchievements ROM set and source collections",
   "platform": "gb",
   "catalog_name": "RetroBoxDB.GB.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-GB/releases/download/gb-catalog-base-20261005-2/RetroBoxDB.GB.Catalog.sqlite",
-  "base_sha256": "833184c4267bf36b1bda4834dd02a7a9341488dfde3dfc995034b913b47ba59b",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-GB/releases/download/gb-catalog-base-20261005-3/RetroBoxDB.GB.Catalog.sqlite",
+  "base_sha256": "40cc9d705a2fdcb5ffc67d7ccb692dcaf6c21703f7d30ea267f4560ba975d095",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 2777,
@@ -43,8 +43,8 @@
       "sha256": "3093e61dded2663ae8e5949382573f6915cbaf88bb4f64612a28f2163ee10567"
     },
     "events": {
-      "rows": 30,
-      "sha256": "9f01ef618c06946b6ab72804b96beebff75bb83735543cf824128c7f856501ee"
+      "rows": 32,
+      "sha256": "b63189fd2f60cb066e637699c5ee8a3e07ff1771d6c4857d63b0aea982f427d0"
     },
     "fds_hardware": {
       "rows": 0,
