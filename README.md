@@ -6,18 +6,18 @@ Single-file SQLite preservation database for Nintendo Game Boy. The public Catal
 
 | Item | Value |
 | --- | --- |
-| Original size | 2,671 No-Intro ZIPs, 295.8 MiB; 2,672 ROM files, 820.0 MiB uncompressed |
-| Stored size | populated database 164.4 MiB; public Catalog 33.6 MiB (no ROM data) |
-| Ratio | 55.6% of the source ZIPs, 20.0% of the uncompressed ROM files |
+| Original size | 3,391 source ZIPs, 401.1 MiB (No-Intro 2,671, RetroAchievements sets 720); 3,392 ROM files, 1.05 GiB uncompressed |
+| Stored size | populated database 177.7 MiB; public Catalog 35.5 MiB (no ROM data) |
+| Ratio | 44.3% of the source ZIPs, 16.5% of the uncompressed ROM files |
 | Technology | storage v4: SHA256-deduplicated 64 KiB blocks packed in No-Intro family order into solid LZMA2 groups of up to 256 MiB (256 MiB dictionary); per-block SHA256 and per-object CRC32/MD5/SHA1/SHA256 verification; source ZIPs reproduced byte-for-byte from TorrentZip plans |
-| Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. Whole-set export (2,672 ROM files in storage order, each group decoded once): 33.2 MiB/s, 9 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 1.669 s, TorrentZip 1.537 s on average |
+| Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. Whole-set export (3,392 ROM files in storage order, each group decoded once): 21.4 MiB/s, 15 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 1.594 s, TorrentZip 1.812 s on average |
 
 ## Downloads and documents
 
 | File / document | Content |
 | --- | --- |
 | [RetroBoxDB.GB.Catalog.sqlite](https://github.com/rshi0212/RetroBoxDB-GB/releases/latest/download/RetroBoxDB.GB.Catalog.sqlite) | Public Catalog (Release asset with `SHA256SUMS`) |
-| [Storage v4 guide](RetroBoxDB.Storage-v4.en.md) / [中文](RetroBoxDB.Storage-v4.zh-CN.md) | Storage evaluation, contents, RA, names and maintenance for all six platforms |
+| [Storage v4 guide](RetroBoxDB.Storage-v4.en.md) / [中文](RetroBoxDB.Storage-v4.zh-CN.md) | Storage evaluation, contents, RA, names and maintenance for all seven platforms |
 | [Technical design](RetroBoxDB.Storage-v4.Technical-Design.en.md) | Storage format, platform adapters, incremental updates, verification |
 | [RA list](reports/ra-gb-games.csv) / [summary](reports/ra-gb.json), [build report](reports/gb-build-report.json), [audit resolution](reports/audit-resolution-20261004.md) | Detailed data |
 
@@ -33,13 +33,14 @@ Change against 32 MiB groups on real data (all 18 groups, 551 MiB): 64 MiB −1.
 
 | Item | Value |
 | --- | --- |
-| ROM records / games / releases | 2,315 / 1,419 / 2,299 |
-| DAT coverage per version | 20260602-070215: 2,218/2,276; 20260707-013717: 2,218/2,284; 20260814-115131: 2,222/2,292; 20261001-130150: 2,224/2,299 |
-| Local ROMs in no DAT | 91 |
+| ROM records / games / releases | 2,538 / 1,419 / 2,299 |
+| DAT coverage per version | 20260602-070215: 2,225/2,276; 20260707-013717: 2,226/2,284; 20260814-115131: 2,230/2,292; 20261001-130150: 2,232/2,299 |
+| Local ROMs in no DAT | 306 |
+| ROM files of the RetroAchievements set | in a No-Intro DAT 495, RA only 222, hash not in the latest RA snapshot 3 ([list](reports/ra-gb-collection-unknown.csv)); RA games still without a local ROM: [gap list](reports/ra-gb-missing.csv) |
 | No-Intro DB Export + Dump Log 20261001-130150 | 2,335 archives, 2,450 file identities, 2,810 documented hardware assertions; Dump Log Verified 719 |
-| RetroAchievements (console 4) | 505 games with achievements: 394 with a local ROM (506 ROMs), 2 DAT only, 0 DB file only, 109 without a No-Intro counterpart |
-| Chinese names | 1,816 of 1,974 rows translated (1,237 unique); 1,829 local ROMs have a Chinese name |
-| Populated-database audit | 2,323 objects, 3 groups, 2,491 archive plans, all passed |
+| RetroAchievements (console 4) | 505 games with achievements: 492 with a local ROM (725 ROMs), 0 DAT only, 0 DB file only, 13 without a No-Intro counterpart |
+| Chinese names | 1,816 of 1,974 rows translated (1,237 unique); 1,835 local ROMs have a Chinese name |
+| Populated-database audit | 2,546 objects, 5 groups, 2,776 archive plans, all passed |
 
 Every source ZIP is reproduced byte-for-byte from its TorrentZip plan (`v_file_checksums.exported_bytes_equal_source`).
 
