@@ -1,18 +1,18 @@
 {
-  "tag": "gb-catalog-20261005",
-  "title": "Game Boy Catalog: storage v4, No-Intro DATs, RetroAchievements and Chinese names",
+  "tag": "gb-catalog-20261005-2",
+  "title": "Game Boy Catalog: RetroAchievements ROM set and source collections",
   "platform": "gb",
   "catalog_name": "RetroBoxDB.GB.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-GB/releases/download/gb-catalog-base-20261005/RetroBoxDB.GB.Catalog.sqlite",
-  "base_sha256": "69606c113427ebd960cd87c1ef1cb9166e730a4c735b6f6d6dde14741ee0402a",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-GB/releases/download/gb-catalog-base-20261005-2/RetroBoxDB.GB.Catalog.sqlite",
+  "base_sha256": "833184c4267bf36b1bda4834dd02a7a9341488dfde3dfc995034b913b47ba59b",
   "data_table_sha256": {
     "archive_entries": {
-      "rows": 2492,
-      "sha256": "36503cb1e480a134693e97f1137063f219cc9f3783ea23cc4cc35c548c08c65a"
+      "rows": 2777,
+      "sha256": "37397e5ea04910fc30182a27a2ab6f10bb6b918412fcbc58ee07bb527ec31d19"
     },
     "archive_plans": {
-      "rows": 2491,
-      "sha256": "14127d832c5b39606177c29b473001c36aaab091ab80d10b5053e2a359873e66"
+      "rows": 2776,
+      "sha256": "6dba597b64d6fa82c3957a3c5a92e9b496727342bcb4af402fdb71b006f9cd4a"
     },
     "archive_profiles": {
       "rows": 1,
@@ -43,16 +43,20 @@
       "sha256": "3093e61dded2663ae8e5949382573f6915cbaf88bb4f64612a28f2163ee10567"
     },
     "events": {
-      "rows": 21,
-      "sha256": "40bfabcf92c9c552e96c7858b55375dc1810341227a6487a4f903e9a106381fc"
+      "rows": 30,
+      "sha256": "9f01ef618c06946b6ab72804b96beebff75bb83735543cf824128c7f856501ee"
+    },
+    "fds_hardware": {
+      "rows": 0,
+      "sha256": "375c736a39de19330edc6ac46a26acccfda18a13e70ba87f22f6d39da91d9c42"
     },
     "file_archives": {
-      "rows": 4910,
-      "sha256": "f7f793f774554d3763df83feae23374841d796bc857cc598dfb1534c3e2aecf4"
+      "rows": 5639,
+      "sha256": "e4e8adaa37fb712cd23470413e77ca9b62a16edbbd4449a54d12a7f771621c2a"
     },
     "files": {
-      "rows": 7590,
-      "sha256": "7e1cbf92e807c53e7e06d9d08cbe1d031571ad8559b5328f6199d7abb24992fa"
+      "rows": 9039,
+      "sha256": "3468329f5ec60e33e0fdebe25d5194566a2f32c5b5e568529998e06ea93386a5"
     },
     "frontend_fields": {
       "rows": 40,
@@ -95,8 +99,8 @@
       "sha256": "fc4c9f780adac4c9220473c4dbb225e7cc5cd7abe9cd0c2fdf83539a91733a93"
     },
     "gb_hardware": {
-      "rows": 2311,
-      "sha256": "17b6eb975ec262a9d6f93e9295f73e34e4d3f277ffd7f8d5e8ed8653d424221b"
+      "rows": 2534,
+      "sha256": "8c55c64a073dc5263f88a566f72bb55dee105132c5b3c065a4730dfc9c0f49b5"
     },
     "gba_hardware": {
       "rows": 0,
@@ -116,11 +120,11 @@
     },
     "meta": {
       "rows": 23,
-      "sha256": "9bea1776160321fd3d7bf355b2376122bfd9555f88cfc7dab8bba6c31ae5e0aa"
+      "sha256": "c16955b76284734bd740fa4095c9636ee39cdf8ee972e9395a64fb2a7563ec96"
     },
     "naming_decisions": {
-      "rows": 643,
-      "sha256": "6bdc74d4d23143dd8b167da5cf3826ff4f5bb42deac16c5adb6d6e5fb8418aea"
+      "rows": 956,
+      "sha256": "66eb95d564de3563975b1c2b83185bc5de9551606e8466168a8e19a845428e0f"
     },
     "nes_hardware": {
       "rows": 0,
@@ -187,36 +191,36 @@
       "sha256": "fd5a7a33f506e106df266f6402be4ab11593068d2660fc8a3013ceb920dcf5f9"
     },
     "object_families": {
-      "rows": 2315,
-      "sha256": "cb406c1855628c85954ef1c0b1f308ff27254f9ad8d7f8fcf5f3cc7dd8090a5e"
+      "rows": 2538,
+      "sha256": "d782b3e8feec794dc955136bc7fcd0d46feb1d95a12fbe188a797e96421d9077"
     },
     "objects": {
-      "rows": 4814,
-      "sha256": "55b162bab2453ff2e7f0d6fec4a6824a221885feb3ccb51bdd3f78d6758a0541"
+      "rows": 5322,
+      "sha256": "74a5aa9a4baa79365680865aebd3d8917efd4a5d81b820d794ef883d13bbb0e8"
     },
     "package_members": {
-      "rows": 8882,
-      "sha256": "52dafd09a85483da4f2481b6031eb9a1a0118a724b4218dd09cd738eb1ffb4d3"
+      "rows": 8913,
+      "sha256": "2f91e0bc275a441e73518f2666cd051a626da382729570452159953864d21326"
     },
     "packages": {
-      "rows": 8882,
-      "sha256": "cd9e40aa8e6efd6469e693a9e9e547326c5b55af56ffcea6096cf3ffaf3ead04"
+      "rows": 8913,
+      "sha256": "ae002784cb7af178d9dfc6c3ee8a9225c5cd590519413afef7dd65994637feb2"
     },
     "platforms": {
       "rows": 1,
       "sha256": "1e511074e6582e72ef92bfbce94515654e257085246fdf5e2dffcf92b9278259"
     },
     "ra_games": {
-      "rows": 1392,
-      "sha256": "1a4346989240f4b7bfdcef65263beed205782894e6fb98462e28606178390268"
+      "rows": 2784,
+      "sha256": "7fa0cfc9671fb3989d6dafc756863872a045ea146a8981f074fe37621b7335ce"
     },
     "ra_hashes": {
-      "rows": 2171,
-      "sha256": "2088064e51386572431eb43f1f5eac6c027e2767edf3c6feb2a7560db3de91a0"
+      "rows": 4342,
+      "sha256": "68ddf6f69f9934f48e62b602c96bd700c12b520f3dfa552ce37ee1a586f2a905"
     },
     "ra_snapshots": {
-      "rows": 1,
-      "sha256": "59de0e9e00aade15ec7b715816c6b56255923c331ec3d7342223db82703d0232"
+      "rows": 2,
+      "sha256": "9d062f038da8537c370a78d0d4a4bcf0eafad6fcacf678105e9e81893218152f"
     },
     "release_dat_games": {
       "rows": 9148,
@@ -235,20 +239,20 @@
       "sha256": "3c642e0d29d1e5dab60d2328c3d565be7c0acc7c70e44cb33566db7e538d7ffa"
     },
     "rom_components": {
-      "rows": 6937,
-      "sha256": "1f6d3a4600df747bf3e9fe8a50bd2d5a175f5820a09fb5b553659ba0a1c0ab0f"
+      "rows": 7606,
+      "sha256": "8099a6d5c5b308958b631ed9ef07f46839467c19ac1d71b8a516517aecfd2def"
     },
     "rom_ra_hashes": {
-      "rows": 2315,
-      "sha256": "f1e498967f4dd23ad2e53003118239a67a41dab9ab23a41c5a9a23def443fe57"
+      "rows": 2538,
+      "sha256": "af8c500b0328501462f6039269cab8ce6bc04d6d95f1f222efacf19ab17f0f6c"
     },
     "rom_releases": {
-      "rows": 2224,
-      "sha256": "287d509dcaa65600d783baefaafffd995b725dfd9f19ca7244d65469ed8b55b9"
+      "rows": 2232,
+      "sha256": "42eddf65ed9285710c15530dd7b88b56dc387180f54ece58b0fe4d9d955cc096"
     },
     "roms": {
-      "rows": 2315,
-      "sha256": "bcd9713efa6f278fe406b5e703bdd632982063f11c298516a7ce4398f475ec02"
+      "rows": 2538,
+      "sha256": "18340ada3a082f7fecd334d539802807e17ed1f13860e9d9f42a322bb2e011c9"
     },
     "scrape_records": {
       "rows": 0,
@@ -267,8 +271,12 @@
       "sha256": "affa7bfc7d2085320a163fb9ea1ce7500c1ac222aab17389817a91d784922466"
     },
     "solid_group_families": {
-      "rows": 1455,
-      "sha256": "19c51a0efbdadc18a48bb837ba2836fa7f7fb298e9e8f595ac028acfcd21d4e7"
+      "rows": 1582,
+      "sha256": "b39027980a84a006ef28476cf3bc0028edd48a6132dd2b3c6b41d31bb91f85eb"
+    },
+    "source_collections": {
+      "rows": 4,
+      "sha256": "caa139d3f443006813a63cfaf7187a03de7229f18d2880cf3109c3cdfa95f188"
     },
     "sources": {
       "rows": 5570,
@@ -279,8 +287,8 @@
       "sha256": "d34d00b4de69a479200769531bc6d17502d5047117c15922c0616e01a1cbc24a"
     },
     "validations": {
-      "rows": 8882,
-      "sha256": "b7b790fb922894346f07a2e96805232f4717d663c877cf8ef2a143943a6ac27f"
+      "rows": 8913,
+      "sha256": "a30fa07b4855a009afc6620874f4d7677bc0b7744f7c1e109cf2604b2cfdb652"
     }
   },
   "resources": {
@@ -372,6 +380,10 @@
       "kind": "json",
       "path": "assessment/data/storage-experiment-gb-gbc-gba.json"
     },
+    "storage-experiment-fds": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-fds.json"
+    },
     "storage-curves": {
       "kind": "json",
       "path": "assessment/data/storage-curves.json"
@@ -387,6 +399,10 @@
     "ra-report-games.csv": {
       "kind": "csv",
       "path": "reports/ra-gb-games.csv"
+    },
+    "ra-report-missing.csv": {
+      "kind": "csv",
+      "path": "reports/ra-gb-missing.csv"
     }
   },
   "repo_tests": [
