@@ -1,10 +1,10 @@
 {
-  "tag": "gb-catalog-20261005-3",
-  "title": "Game Boy Catalog: RetroAchievements ROM set and source collections",
+  "tag": "gb-catalog-20261006",
+  "title": "Game Boy Catalog: eight-platform engine and documentation",
   "platform": "gb",
   "catalog_name": "RetroBoxDB.GB.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-GB/releases/download/gb-catalog-base-20261005-3/RetroBoxDB.GB.Catalog.sqlite",
-  "base_sha256": "40cc9d705a2fdcb5ffc67d7ccb692dcaf6c21703f7d30ea267f4560ba975d095",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-GB/releases/download/gb-catalog-base-20261006/RetroBoxDB.GB.Catalog.sqlite",
+  "base_sha256": "297b2fd830f81b1f6481bb02cdfff2f1db15375cefd427052aca36a87a635764",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 2777,
@@ -17,6 +17,10 @@
     "archive_profiles": {
       "rows": 1,
       "sha256": "a8247ca6bd7302d45bbf2e6dfe2fae5b8624f1333cc6a4087cd18bac6e463690"
+    },
+    "bsx_hardware": {
+      "rows": 0,
+      "sha256": "44f335cb2b7c8f195e63c47f303f37dadc7e880771c4b23baef96323d6cb90d3"
     },
     "chunks": {
       "rows": 0,
@@ -43,8 +47,8 @@
       "sha256": "3093e61dded2663ae8e5949382573f6915cbaf88bb4f64612a28f2163ee10567"
     },
     "events": {
-      "rows": 32,
-      "sha256": "b63189fd2f60cb066e637699c5ee8a3e07ff1771d6c4857d63b0aea982f427d0"
+      "rows": 34,
+      "sha256": "26b747d985d4dada99b3f15032c029f700f8e600e44df53b4b3cea92f9f82b2c"
     },
     "fds_hardware": {
       "rows": 0,
@@ -383,6 +387,10 @@
     "storage-experiment-fds": {
       "kind": "json",
       "path": "assessment/data/storage-experiment-fds.json"
+    },
+    "storage-experiment-satellaview": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-satellaview.json"
     },
     "storage-curves": {
       "kind": "json",
