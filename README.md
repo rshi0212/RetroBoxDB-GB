@@ -7,8 +7,8 @@ Single-file SQLite preservation database for Nintendo Game Boy. The public Catal
 | Item | Value |
 | --- | --- |
 | Original size | 3,391 source ZIPs, 401.1 MiB (No-Intro 2,671, RetroAchievements sets 720); 3,392 ROM files, 1.05 GiB uncompressed |
-| Stored size | populated database 177.8 MiB; public Catalog 35.6 MiB (no ROM data) |
-| Ratio | 44.3% of the source ZIPs, 16.5% of the uncompressed ROM files |
+| Stored size | populated database 178.0 MiB; public Catalog 35.8 MiB (no ROM data) |
+| Ratio | 44.4% of the source ZIPs, 16.5% of the uncompressed ROM files |
 | Technology | storage v4: SHA256-deduplicated 64 KiB blocks packed in No-Intro family order into solid LZMA2 groups of up to 256 MiB (256 MiB dictionary); per-block SHA256 and per-object CRC32/MD5/SHA1/SHA256 verification; source ZIPs reproduced byte-for-byte from TorrentZip plans |
 | Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. whole newest-DAT set with `export_set.py` (2,232 files, each checked against the DAT hashes): 41.0 MiB/s, 6 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 1.594 s, TorrentZip 1.812 s on average |
 
@@ -17,7 +17,7 @@ Single-file SQLite preservation database for Nintendo Game Boy. The public Catal
 | File / document | Content |
 | --- | --- |
 | [RetroBoxDB.GB.Catalog.sqlite](https://github.com/rshi0212/RetroBoxDB-GB/releases/latest/download/RetroBoxDB.GB.Catalog.sqlite) | Public Catalog (Release asset with `SHA256SUMS`) |
-| [Storage v4 guide](RetroBoxDB.Storage-v4.en.md) / [中文](RetroBoxDB.Storage-v4.zh-CN.md) | Storage evaluation, contents, RA, names and maintenance for all eight platforms |
+| [Storage v4 guide](RetroBoxDB.Storage-v4.en.md) / [中文](RetroBoxDB.Storage-v4.zh-CN.md) | Storage evaluation, contents, RA, names and maintenance for every platform |
 | [Technical design](RetroBoxDB.Storage-v4.Technical-Design.en.md) | Storage format, platform adapters, incremental updates, verification |
 | [RA list](reports/ra-gb-games.csv) / [summary](reports/ra-gb.json), [build report](reports/gb-build-report.json), [audit resolution](reports/audit-resolution-20261004.md) | Detailed data |
 
